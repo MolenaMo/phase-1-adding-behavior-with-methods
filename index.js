@@ -18,7 +18,7 @@ class Bird {
     constructor(name,sex){
         this.name = name
         this.sex = sex
-    }
+    }//below is the "speak returns conditional output" part
 speak(){
     if(this.sex === "male"){
        return `It's me! ${this.name}, the parrot!`
